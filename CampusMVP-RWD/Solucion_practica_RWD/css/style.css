@@ -1,0 +1,464 @@
+﻿/*Reset CSS de Eric Meyer disponible en: www.meyerweb.com/eric/tools/css/reset/ */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: outside none none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote::before, blockquote::after, q::before, q::after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*Fin Reset*/
+
+/*Rejilla CSS generada con http://grids.herokuapp.com/, con algunas modificaciones*/
+
+.container_12 {
+    overflow: hidden;
+}
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 1em;
+}
+.container_12 .grid_1 {
+    width: 6.333%;
+}
+.container_12 .grid_2 {
+    width: 14.667%;
+}
+.container_12 .grid_3 {
+    width: 23%;
+}
+.container_12 .grid_4 {
+    width: 31.333%;
+}
+.container_12 .grid_5 {
+    width: 39.667%;
+}
+.container_12 .grid_6 {
+    width: 48%;
+}
+.container_12 .grid_7 {
+    width: 56.333%;
+}
+.container_12 .grid_8 {
+    width: 64.667%;
+}
+.container_12 .grid_9 {
+    width: 73%;
+}
+.container_12 .grid_10 {
+    width: 81.333%;
+}
+.container_12 .grid_11 {
+    width: 89.667%;
+}
+.container_12 .grid_12 {
+    width: 98%;
+}
+/*Fin rejilla*/
+html {
+    font-size:100%;
+}
+body {
+    background: url("imgcss/bg-dashed.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    font-family: "Open Sans","Segoe UI",Arial,sans-serif;
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+.inner-wrapper {
+    padding: 1.5% 2% 0;
+}
+.wrapper {
+    background-color: #fff;
+    box-shadow: 1px 1px 8px #5e5e5e;
+    box-sizing: border-box;
+    margin: 3% auto 0;
+    max-width: 1200px;
+    overflow: hidden;
+    width: 100%;
+}
+.btn_menu {
+    display: none;
+}
+a {
+    color: #007bc5;
+}
+.menu ul {
+    float: right;
+    margin-top: 2.2em;
+}
+.menu li {
+    display: inline-block;
+    float: left;
+}
+.menu li a {
+    color: #333;
+    display: block;
+    font-size: 1em;
+    margin-left: 1.2em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu li a:hover {
+    color: #007bc5;
+    text-decoration: underline;
+}
+#main-menu {
+    display: none;
+}
+.container_12 #hero {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+#hero img {
+    box-shadow: 1px 1px 8px #5e5e5e;
+    display: block;
+    padding: 0.5%;
+    width: 99%;
+}
+h1.slogan {
+    color: #1253a3;
+    font-size: 2rem;
+    margin-bottom: 1%;
+    margin-top: 3%;
+    text-align: center;
+    line-height:1.1em;
+}
+#info-frutas img {
+    display: block;
+    margin: 0 auto;
+    max-width: 280px;
+    width: 100%;
+}
+.titulo-info-frutas {
+    color: #98002f;
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+#info-frutas {
+    padding-bottom: 4em;
+}
+#info-frutas p {
+    text-align: center;
+}
+
+#info-frutas .mas-info-link {
+    display: block;
+    margin-top: 0.8em;
+    position: relative;
+}
+
+#info-frutas .mas-info-link::before {
+    background-color: #98002f;
+    color: white;
+    content: "+";
+    display: block;
+    font-size: 1.5em;
+    font-weight: 600;
+    height: 22px;
+    left: 11px;
+    line-height: 21px;
+    position: absolute;
+    top: 1px;
+    width: 22px;
+}
+
+.titular-notica {
+    color: #1253a3;
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+#ultimas-noticias {
+    background: url("imgcss/bg-light.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 2px solid #98002f;
+    border-top: 2px solid #98002f;
+    margin-bottom: 3%;
+    padding: 1%;
+}
+#ultimas-noticias p {
+    text-align: justify;
+}
+.noticia {
+    margin-top: 2em;
+}
+.noticia img {
+    box-shadow: 1px 1px 8px #5e5e5e;
+    display: block;
+    margin: 0 auto 5%;
+    max-width: 510px;
+    width: 100%;
+}
+.titular-seccion {
+    color: #000;
+    font-size: 1.5em;
+    font-weight: lighter;
+    margin-top: 2rem;
+    text-indent: 1em;
+}
+#suscribe {
+    margin-bottom: 5%;
+}
+#suscribe .titular-seccion {
+    color: #980743;
+    text-align: center;
+}
+#form-suscribe {
+    margin: 2% auto;
+    max-width: 405px;
+    width: 100%;
+}
+.email-claim {
+    color: #333;
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 5%;
+    text-align: center;
+}
+#suscribe-EMAIL {
+    display: inline-block;
+    height: 30px;
+    max-width: 262px;
+    text-indent: 0.8em;
+    vertical-align: top;
+    width: 100%;
+}
+.button {
+    background: none repeat scroll 0 0 #980743;
+    border: 0 none;
+    color: #fff;
+    display: inline-block;
+    font-family: "Open sans","Segoe UI",arial,sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    height: 36px;
+    line-height: 33px;
+    width: 130px;
+}
+#form-consulta input {
+    border: medium none;
+    font-family: "Open sans","Segoe UI",arial,sans-serif;
+    font-size: 0.9em;
+    height: 27px;
+    line-height: 30px;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    max-width: 224px;
+    padding: 0;
+    text-indent: 0.5em;
+    width: 100%;
+}
+#form-consulta textarea#mensaje {
+    border: medium none;
+    font-family: "Open sans","Segoe UI",arial,sans-serif;
+    font-size: 0.9em;
+    line-height: 30px;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    max-width: 224px;
+    min-height: 100px;
+    padding: 0;
+    resize: vertical;
+    text-indent: 0.5em;
+    width: 100%;
+    display:block;
+}
+#form-consulta .enviar-mensaje {
+    background-color: #9bce7f;
+    font-weight: 600;
+    height: 31px;
+    max-width: 225px;
+    text-indent: 0;
+    text-shadow: 1px 1px 1px #888;
+    width: 100%;
+}
+#form-consulta legend {
+    font-size: 1.1em;
+    margin-bottom: 5%;
+}
+#footer-navigation ul li a {
+    color: #fff;
+    display: block;
+    padding: 2%;
+    text-decoration: none;
+}
+address {
+    line-height: 2em;
+}
+.copyright {
+    margin-top: 2%;
+}
+footer {
+    background-color: #98002f;
+    color: #fff;
+    padding: 1% 0;
+}
+.toggle {
+    display:none;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width:960px) {
+    @-ms-viewport {
+        width: device-width;
+    }
+    .container_12 .grid_3.med-grid_6 {
+        width: 48%;
+    }
+}
+@media screen and (max-width:768px) {
+    .container_12 .grid_4.med-grid_12 {
+        border-bottom: 1px solid #ccc;
+        width: 98%;
+    }
+    #info-frutas .mas-info-link::before {
+        display:none;
+    }
+  #info-frutas .mas-info-link {
+        background: none repeat scroll 0 0 #98002f;
+        color: #fff;
+        display: block;
+        height: 28px;
+        line-height: 25px;
+        margin: 1em auto;
+        text-decoration: none;
+        width: 140px;
+    }
+}
+@media screen and (max-width:630px) {
+    @-ms-viewport {
+        width: device-width;
+    }
+    header .grid_10.xs-grid_12 {
+        clear: both;
+        display: block;
+        float: none;
+        margin: 0 0 2%;
+        width: 100%;
+    }
+   header .grid_10.xs-grid_12 .menu ul {
+        float: none;
+        margin-top: 0;
+    }
+   header .grid_10.xs-grid_12 li a {
+        margin-left: 0;
+        padding-right: 1em;
+    }
+    .container_12 .grid_3.med-grid_6.xsmall-grid_12, .container_12 .grid_6.xsmall-grid_12 {
+            width: 100%;
+    }
+    #suscribe {
+        margin-bottom: 16%;
+        margin-top: 14%;
+    }
+}
+@media screen and (max-width:480px) {
+    @-ms-viewport {
+        width: device-width;
+    }
+    header .grid_10.xs-grid_12 li {
+        display: block;
+        width: 100%;
+        float: none;
+        border-top: 1px solid #ccc;
+    }
+    header .grid_10.xs-grid_12 li:last-child {
+        border-bottom: 1px solid #ccc;
+    }
+    header .grid_10.xs-grid_12 li a {
+        padding: 0.5em 0;
+        text-align: center;
+    }
+    header .grid_10.xs-grid_12 li a:hover {
+        background-color:#9bce7f;
+        color:#000;
+        text-decoration:none;
+    }
+    #suscribe-EMAIL {
+        display: block;
+        margin: 0 auto 4%;
+    }
+    #suscribirse-boton.button {
+        display: block;
+        margin: 0 auto;
+        max-width: 270px;
+        width: 100%;
+    }
+    .email-claim {
+        font-size:1.1em;
+        margin-bottom:9%;
+    }
+    /*menú responsive CSS3 (No necesita JS)*/
+    .toggle {
+        background-color: #98002f;
+        color: #fff;
+        display: block;
+        float: right;
+        font-weight: 600;
+        height: 45px;
+        line-height: 42px;
+        padding: 0;
+        position: absolute;
+        right: 1.6em;
+        text-align: center;
+        top: 61px;
+        width: 80px;
+    }
+   .open, .close {
+        color:#fff;
+        text-decoration:none;
+        display:block;
+    }
+    .toggle .close
+    {
+	    display: none;
+    }
+    #nav ul
+    {
+	    height: 0em;
+	    overflow: hidden;
+            -ms-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+	    -webkit-transition: all .3s ease-in-out;
+        -o-transition:all .3s ease-in-out;
+        transition:all .3s ease-in-out;
+    }
+    #nav:target ul
+    {
+	    height: 10em;
+    }
+    #nav:target .open
+    {
+	    display: none;
+    }
+    #nav:target .close
+    {
+	    display: block;
+    }
+}
