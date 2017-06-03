@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fonts\quicksand\SIL Open Font License.txt" />
     <Content Include="Fruteria\images\%402x-banana.jpg" />
     <Content Include="Fruteria\images\%402x-fresas.jpg" />
     <Content Include="Fruteria\images\%402x-kiwi.jpg" />
@@ -113,6 +114,13 @@
     </Content>
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <Content Include="Fruteria\images\Thumbs.db" />
+    <Content Include="fonts\quicksand\Quicksand-Bold.otf" />
+    <Content Include="fonts\quicksand\Quicksand-BoldItalic.otf" />
+    <Content Include="fonts\quicksand\Quicksand-Italic.otf" />
+    <Content Include="fonts\quicksand\Quicksand-Light.otf" />
+    <Content Include="fonts\quicksand\Quicksand-LightItalic.otf" />
+    <Content Include="fonts\quicksand\Quicksand-Regular.otf" />
+    <Content Include="fonts\quicksand\Quicksand_Dash.otf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
