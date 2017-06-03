@@ -30,6 +30,14 @@ table {
 }
 /*Fin Reset*/
 
+/* Web Fonts */
+    @font-face {
+    font-family: "Open Sans","Segoe UI",Arial,sans-serif;
+    /*src: url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);*/
+    src: url(https://fonts.googleapis.com/css?family=Quattrocento);
+}
+   
+
 html {
     font-size:100%;
 }
