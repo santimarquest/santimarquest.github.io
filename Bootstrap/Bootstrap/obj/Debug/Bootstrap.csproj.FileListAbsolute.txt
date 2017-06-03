@@ -30,3 +30,4 @@ D:\Front-End\RWD\Project\Bootstrap\Bootstrap\bin\Microsoft.ApplicationInsights.x
 D:\Front-End\RWD\Project\Bootstrap\Bootstrap\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\Front-End\RWD\Project\Bootstrap\Bootstrap\obj\Debug\Bootstrap.dll
 D:\Front-End\RWD\Project\Bootstrap\Bootstrap\obj\Debug\Bootstrap.pdb
+D:\Front-End\RWD\Project\Bootstrap\Bootstrap\obj\Debug\Bootstrap.csprojResolveAssemblyReference.cache
