@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusMVP-RWD", "CampusMVP-RWD\CampusMVP-RWD.csproj", "{095DA049-4ACF-4186-A439-408C7A0F9FA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrap", "..\..\Bootstrap\Bootstrap\Bootstrap.csproj", "{2861D15B-D6DF-479D-B0B4-AFCE03AEB16E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrap", "Bootstrap\Bootstrap\Bootstrap.csproj", "{2861D15B-D6DF-479D-B0B4-AFCE03AEB16E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
