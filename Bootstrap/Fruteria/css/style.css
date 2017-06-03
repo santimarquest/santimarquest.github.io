@@ -261,8 +261,6 @@ footer {
 }
 
 
-@media screen and (min-width: 634px) and (max-width: 768px) {
-
 /*Rejilla CSS generada con http://grids.herokuapp.com/, con algunas modificaciones*/
 
 /*.container_12 {
@@ -314,19 +312,21 @@ footer {
 } */
 /*Fin rejilla*/
 
-.class630 {
-    box-sizing: border-box;
-    display: inline-block;
-    float: left;
-    margin-left: 1%;
-    margin-right: 1%;
-    padding: 1em;
-   width: 48%;
-}
+@media screen and (min-width: 634px) and (max-width: 768px) {
 
-#div4 {
-    background-color: rosybrown;
-}
+    .class630 {
+        box-sizing: border-box;
+        display: inline-block;
+        float: left;
+        margin-left: 1%;
+        margin-right: 1%;
+        padding: 1em;
+        width: 48%;
+    }
+
+    #div4 {
+        background-color: rosybrown;
+    }
 }
 
 
