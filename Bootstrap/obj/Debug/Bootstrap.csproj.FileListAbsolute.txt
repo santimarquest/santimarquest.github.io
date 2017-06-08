@@ -30,4 +30,3 @@ D:\Front-End\RWD\Gesdocument\santimarquest.github.io\Bootstrap\bin\Microsoft.App
 D:\Front-End\RWD\Gesdocument\santimarquest.github.io\Bootstrap\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\Front-End\RWD\Gesdocument\santimarquest.github.io\Bootstrap\obj\Debug\Bootstrap.dll
 D:\Front-End\RWD\Gesdocument\santimarquest.github.io\Bootstrap\obj\Debug\Bootstrap.pdb
-D:\Front-End\RWD\Gesdocument\santimarquest.github.io\Bootstrap\obj\Debug\Bootstrap.csprojResolveAssemblyReference.cache

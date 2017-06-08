@@ -62,4 +62,3 @@ D:\Front-End\RWD\Gesdocument\santimarquest.github.io\CampusMVP-RWD\bin\Microsoft
 D:\Front-End\RWD\Gesdocument\santimarquest.github.io\CampusMVP-RWD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\Front-End\RWD\Gesdocument\santimarquest.github.io\CampusMVP-RWD\obj\Debug\CampusMVP-RWD.dll
 D:\Front-End\RWD\Gesdocument\santimarquest.github.io\CampusMVP-RWD\obj\Debug\CampusMVP-RWD.pdb
-D:\Front-End\RWD\Gesdocument\santimarquest.github.io\CampusMVP-RWD\obj\Debug\CampusMVP-RWD.csprojResolveAssemblyReference.cache

@@ -30,4 +30,3 @@ D:\Front-End\RWD\Gesdocument\santimarquest.github.io\EmpresaDesarrollo\bin\Micro
 D:\Front-End\RWD\Gesdocument\santimarquest.github.io\EmpresaDesarrollo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\Front-End\RWD\Gesdocument\santimarquest.github.io\EmpresaDesarrollo\obj\Debug\EmpresaDesarrollo.dll
 D:\Front-End\RWD\Gesdocument\santimarquest.github.io\EmpresaDesarrollo\obj\Debug\EmpresaDesarrollo.pdb
-D:\Front-End\RWD\Gesdocument\santimarquest.github.io\EmpresaDesarrollo\obj\Debug\EmpresaDesarrollo.csprojResolveAssemblyReference.cache
